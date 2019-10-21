@@ -1,6 +1,6 @@
 <?php
 function true() {
-    echo"true";
+    return true;
 }
-return true;
+echo true();
 ?>

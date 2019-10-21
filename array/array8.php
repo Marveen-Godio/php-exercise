@@ -12,5 +12,8 @@ $m = array(
     10 => 'Octobre', 
     11 => 'Novembre', 
     12 => 'Décembre');
-var_dump($m[5]);
+for ($i=1; $i<13; $i++) {
+    
+    echo $m[$i],"\n";
+}
 ?>
